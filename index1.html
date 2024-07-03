@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        yagmursimseknet \ Lesson3</title>
+</head>
+<body>
+    <!--döneceği yeri belirtmeliyiz.nereye dönmesini istiyorsak nameyi oraya koyarız.-->
+    <a name="return"></a>
+    <!--TABLO KİSMİ-->
+<!--   <table width="60%" border="ı" cellpadding="10" cellspacing="5" align="center">
+        <caption>Tablo Oluşturmayi Öğreniyorum</caption>
+        <thead>
+            <tr>-->
+                <!--<th>thead için sütun1</th>
+                --birinci sütunuda silersek tüm sütunları birleştirmemiz gerekecek. deneyelim-->
+                <!--<th colspan="3">thead için sütun2</th>-->
+                <!--colspan iki sütunu birleştirdi.3.yü sildik bodydeki veriler tek kalmadı bu şekilde 2ye bağlandı.kaç sütunu birleştirmek istiyorsak colspana onu yazarız.-->
+            <!--</tr>
+        </thead>
+        <tbody align="center">--><!--align tüm sütunu etkilesin istersek bodynin içine yazarız.-->
+            <!--<tr>
+                 <td >thebody için sütun1</td>
+                <td>thebody için sütun2</td>
+                <td>thebody için sütun3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>thefoot için sütun1</td>
+            <td>thefoot için sütun1</td>
+            <td>thefoot için sütun1</td>
+        </tfoot>
+    </table>-->
+<!--Lİste KİSMİ-->
+<p><a href="https://www.youtube.com" title="youtube kanali">youtube kanali</a></p>
+<!--pdf linkimiz varsa ve direkt indirsin istiyorsak basınca.. aşağıya pdfli olanı yazarız.-->
+<p><a href=""></a></p>
+
+<!--MAİL KİSMİ
+    <p><a href="mailto:ygmurrsimsek@icloud.com" title="benim mailim">E posta gönder</a></p> -->
+<!--<p><a href="#return" >sayfanin üst kismina cik</a></p>
+<img src="img/klavye.jpg" alt="klavye"border="2" weight="300" height="300">-->
+
+<!--ID - CENTER
+<p title="XHTML" id="ID">Extensible Hyper Text Markup Language </p>
+<center><h2 id="ID2">BAŞLİK </h2></center> CENTER ORTALADİ-->
+
+<pre>
+    <center>
+        <h2>AKINCILAR</h2>
+Bin atlı akınlarda çocuklar gibi şendik
+Bin atlı o gün dev gibi bir orduyu yendik
+Haykırdı ak tolgalı beylerbeyi “ilerle”
+Bir yaz günü geçtik Tuna’dan kafilelerle
+Şimşek gibi atıldık bir semte yedi koldan
+Şimşek gibi Türk atlarının geçtiği yoldan
+Bir gün yine doludizgin atlarımızla
+Yerden yedi kat arşa kanatlandık o hızla
+Cennette bu gün gülleri açmış görürüzde
+Hala o kızıl hatıra gitmez gözümüzde
+Bin atlı akınlarda çocuklar gibi şendik
+Bin atlı o gün dev gibi bir orduyu yendik
+</center>
+</pre>
+<!--altını üstünü çizme
+<del>100</del>değil <ins>99 tl</ins>
+-->
+<!--VURGU İÇİN mark
+    <abbr title="Dünya Sağlik Örgütü">WHO</abbr>
+
+    <p>Mark Etiketinin Kullanimi <mark>Buradan indirin...</mark></p>
+-->
+
+<!--<meter
+ value="5" min="0" max="10"
+</meter>
+<p>
+    <samp>404 sayfa bulunamadi.</samp>
+</p>-->
+
+<!--FORM-->
+<form
+ name="Frm1" id="Frm1" method="post" action="#">
+<p><input type="text" name="username" id="username" autocomplete="off" placeholder="Kullanici adinizi giriniz..." size="25" ></p>
+<!--autocomplete otomatik tamamlamadir.Biz kapattik.disabled ile kullaniciya input yapmayı kapattik.-->
+<p><input type="password" name="pass" id="pass" maxlength="10" placeholder="Sifrenizi giriniz..." size="25" ></p>
+<p><input type="email" name="email" id="email" placeholder="Mailinizi giriniz..." size="25"></p>
+<!--<p><input type="hidden" value="yagmur737"></p> gizli veri gönderimi yaptik.-->
+<!--açiklama gibi bir yazi boşluğu oluşturduk.-->
+
+<!--checkbox ve radio arasindaki fark checkboxta birden fazla seçim hakkimiz var radioda sadece birisi seçilir.RADİODA nameler aynı olmazsa ikisine de tıklanır .-->
+<p>Hobiler:</p>
+<p><input type="checkbox" value="0" name="check1">tenis</p>
+<p><input type="checkbox" name="chek1" value="1">yüzme</p>
+<p>CİNSİYET:</p>
+<p><input type="radio" name="check2" value="0">Bay</p>
+<p><input type="radio" name="check2" value="1">Bayan</p>
+<p><textarea name="metin" id="metin" cols="30" rows="10"></textarea></p>
+
+<select>
+    <option values="-1"selected >Ogrenmek istediginiz dili seciniz...</selected>
+    <option value="1">XHTML</option>
+    <option value="2">Java</option>
+    <option value="3">Python</option>
+    <option value="4">PHP</option>
+<!--Kutucuk boş durmasın oraya bu yazıyı selected ettik yani seçildi yaptik.-->
+</select>
+
+<input type="submit" value="Send">
+<input type="button" value="button">
+<input type="reset">
+<!--değer girdik ve sende basarak gönderdik ama actionda nereye gideceğini belirtmediğimiz için yine kendi sayfasında kalir. -->
+</form>
+
+<!--CSS-->
+
+</body>
+</html>
